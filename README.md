@@ -11,7 +11,7 @@
 
 LogicPrimitives was originally developed as a custom MCP server, but that implementation is not release-ready as it was an initial version with API key management issues. There are two main approaches to implement this framework:
 
-1. **Build your own Logic MCP primitive**: Create a server that calls models outside the chat to make these decisions in isolation, providing a cleaner separation of cognitive operations.
+1. **Build your own Logic MCP primitive**: Create a server that calls models outside the chat to make these decisions in isolation, providing a cleaner separation of cognitive operations stored and organized in a retrievable SQL database for later use in new primative calls with context aware enrichment by LLM models using their local workspace and context to develop specific and relevant chain of thought querries.
 
 2. **Document each primitive in Markdown**: Use sequential .md files to document each primitive step, allowing for structured thinking that can be traced and verified.
 
